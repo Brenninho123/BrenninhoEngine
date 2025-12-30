@@ -255,7 +255,7 @@ class FreeplayState extends MusicBeatState
 				ratingSplit[1] += '0';
 			}
 			
-			scoreText.text = 'PERSONAL BEST: ' + lerpScore + ' (' + ratingSplit.join('.') + '%)';
+			scoreText.text = 'HIGHSCORE: ' + lerpScore + ' (' + ratingSplit.join('.') + '%)';
 			positionHighscore();
 			
 			var shiftMult:Int = 1;
