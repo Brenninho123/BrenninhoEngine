@@ -18,7 +18,7 @@ class OptionsState extends MusicBeatState
 		'Adjust Delay and Combo',
 		'Graphics',
 		'Visuals and UI',
-		'Gameplay',
+		'Preferences',
 		"Loading"
 	];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
@@ -38,7 +38,7 @@ class OptionsState extends MusicBeatState
 				openSubState(new funkin.states.options.GraphicsSettingsSubState());
 			case 'Visuals and UI':
 				openSubState(new funkin.states.options.VisualsUISubState());
-			case 'Gameplay':
+			case 'Preferences':
 				openSubState(new funkin.states.options.GameplaySettingsSubState());
 			case 'Loading':
 				openSubState(new funkin.states.options.MiscSubState());
