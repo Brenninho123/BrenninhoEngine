@@ -92,7 +92,7 @@ class DebugDisplay extends Sprite
 	{
 		if (!updating) return;
 		
-		text.text = 'FPS: $currentFPS • Memory: ${flixel.util.FlxStringUtil.formatBytes(memoryMegas)}';
+		text.text = 'FPS: $currentFPS • RAM: ${flixel.util.FlxStringUtil.formatBytes(memoryMegas)}';
 		
 		text.textColor = 0xFFFFFFFF;
 		if (currentFPS < FlxG.drawFramerate * 0.5) text.textColor = 0xFFFF0000;
