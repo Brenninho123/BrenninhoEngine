@@ -82,7 +82,7 @@ class FunkinLua extends FunkinScript
 			var resultStr:String = Lua.tostring(lua, result);
 			if (resultStr != null && result != 0)
 			{
-				trace('Error on lua script! ' + resultStr);
+				trace('Error in lua script! ' + resultStr);
 				#if windows
 				lime.app.Application.current.window.alert(resultStr, 'Error on lua script!');
 				#else
